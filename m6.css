@@ -1,0 +1,170 @@
+/* 全体 */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f7fa;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* タイトル */
+h1 {
+    background-color: #4a90e2;
+    color: white;
+    padding: 20px;
+    margin: 0;
+}
+
+/* カード（登録フォーム） */
+.register {
+    background-color: white;
+    width: 300px;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* 見出し */
+.register h2 {
+    margin-bottom: 20px;
+}
+
+/* 入力フォーム */
+.register input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* ボタン */
+.register button {
+    width: 95%;
+    padding: 10px;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* ホバー */
+.register button:hover {
+    background-color: #357abd;
+}
+
+/* エラーメッセージ */
+.register p {
+    color: red;
+}
+
+/* カード（ログイン） */
+.login {
+    background-color: white;
+    width: 300px;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* 見出し */
+.login h2 {
+    margin-bottom: 20px;
+}
+
+/* 入力フォーム */
+.login input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* ボタン */
+.login button {
+    width: 95%;
+    padding: 10px;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* ホバー */
+.login button:hover {
+    background-color: #357abd;
+}
+
+/* エラーメッセージ */
+.login p {
+    color: red;
+}
+
+/* カード（新規投稿） */
+.post {
+    background-color: white;
+    width: 300px;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* 見出し */
+.post h2 {
+    margin-bottom: 20px;
+}
+
+/* 入力フォーム */
+.post textarea {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* ボタン */
+.post button {
+    width: 95%;
+    padding: 10px;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* ホバー */
+.post button:hover {
+    background-color: #357abd;
+}
+
+/* エラーメッセージ */
+.post p {
+    color: red;
+}
+
+
+/* リンク */
+a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #4a90e2;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
